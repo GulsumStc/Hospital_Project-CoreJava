@@ -1,3 +1,5 @@
+package HastaneProjectDevTeam03_EnSonHal;
+
 public class Doktor {
     private String isim;
 
@@ -17,7 +19,7 @@ public class Doktor {
 
     @Override
     public String toString() {
-        return "Doktor{" +
+        return "HastaneProjectDevTeam03_EnSonHal.Doktor{" +
                 "isim='" + isim + '\'' +
                 ", soyIsim='" + soyIsim + '\'' +
                 ", unvan='" + unvan + '\'' +

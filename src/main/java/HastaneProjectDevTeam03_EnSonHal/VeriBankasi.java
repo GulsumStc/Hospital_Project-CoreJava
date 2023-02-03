@@ -1,3 +1,5 @@
+package HastaneProjectDevTeam03_EnSonHal;
+
 public class VeriBankasi {
     String[] doctorIsimleri = {"Nilson", "John", "Robert", "Marry", "Alan", "Mahesh"
     };

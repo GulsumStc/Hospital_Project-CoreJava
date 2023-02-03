@@ -1,3 +1,5 @@
+package HastaneProjectDevTeam03_EnSonHal;
+
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.util.*;

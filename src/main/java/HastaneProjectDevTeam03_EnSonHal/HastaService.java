@@ -1,6 +1,6 @@
-import java.util.LinkedList;
-import java.util.Locale;
+package HastaneProjectDevTeam03_EnSonHal;
 
+import java.util.LinkedList;
 import static HastaneProjectDevTeam03_EnSonHal.HastaneService.scanner;
 import static HastaneProjectDevTeam03_EnSonHal.HastaneService.slowPrint;
 

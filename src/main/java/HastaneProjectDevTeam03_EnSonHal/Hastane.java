@@ -1,3 +1,5 @@
+package HastaneProjectDevTeam03_EnSonHal;
+
 public class Hastane extends VeriBankasi{
 
 

@@ -1,3 +1,5 @@
+package HastaneProjectDevTeam03_EnSonHal;
+
 public class Hasta {
     private String isim;
 
@@ -25,7 +27,7 @@ public class Hasta {
 
     @Override
     public String toString() {
-        return "Hasta{" +
+        return "HastaneProjectDevTeam03_EnSonHal.Hasta{" +
                 "isim='" + isim + '\'' +
                 ", soyIsim='" + soyIsim + '\'' +
                 ", hastaID=" + hastaID +

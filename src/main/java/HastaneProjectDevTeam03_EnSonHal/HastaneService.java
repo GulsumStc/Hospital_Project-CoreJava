@@ -1,3 +1,5 @@
+package HastaneProjectDevTeam03_EnSonHal;
+
 import java.util.Scanner;
 
 public class HastaneService {

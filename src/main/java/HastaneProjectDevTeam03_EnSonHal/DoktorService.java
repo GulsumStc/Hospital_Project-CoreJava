@@ -1,3 +1,5 @@
+package HastaneProjectDevTeam03_EnSonHal;
+
 import java.util.LinkedList;
 
 import static HastaneProjectDevTeam03_EnSonHal.HastaneService.scanner;
@@ -13,7 +15,7 @@ public class DoktorService implements Service {
         String doktorAdi = scanner.next();
         System.out.println("Eklemek istediginiz doktor soyadini giriniz");
         String doktorSoyadi = scanner.next();
-        System.out.println("Eklemek İstediginiz Doktor Unvanini Giriniz:\n\t=> Allergist\n\t=> Norolog\n\t=> Genel Cerrah\n\t" +
+        System.out.println("Eklemek İstediginiz HastaneProjectDevTeam03_EnSonHal.Doktor Unvanini Giriniz:\n\t=> Allergist\n\t=> Norolog\n\t=> Genel Cerrah\n\t" +
                 "=> Cocuk Doktoru\n\t=> Dahiliye\n\t=> Kardiolog");
         String doktorUnvan = scanner.next();
         Doktor doktor = new Doktor(doktorAdi, doktorSoyadi, doktorUnvan);
@@ -24,9 +26,9 @@ public class DoktorService implements Service {
     @Override
     public void remove() {
         list();
-        System.out.println("Silmek Istediginiz Doktor ismi giriniz.");
+        System.out.println("Silmek Istediginiz HastaneProjectDevTeam03_EnSonHal.Doktor ismi giriniz.");
         String doktorIsim = scanner.next();
-        System.out.println("Silmek istediginiz Doktor soyismi giriniz");
+        System.out.println("Silmek istediginiz HastaneProjectDevTeam03_EnSonHal.Doktor soyismi giriniz");
         String doktorSoyisim = scanner.next();
         boolean sildiMi = false;
         for (Doktor w : doktorList) {
